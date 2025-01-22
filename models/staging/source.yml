@@ -2,10 +2,10 @@ version: 2
 
 sources:
     
-name: jaffle_shop
-    schema: my_dbt_db
+    - name: jaffle_shop
+      schema: my_dbt_db
 
       tables:
         
-name: raw_customers
-name: raw_orders
+        - name: raw_customers
+        - name: raw_orders
